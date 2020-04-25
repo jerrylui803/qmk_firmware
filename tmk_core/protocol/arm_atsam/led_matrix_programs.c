@@ -113,8 +113,11 @@ void *led_setups[] = {
     leds_green,
     leds_blue,
     leds_white,
-    leds_white_with_red_stripe,
-    leds_black_with_red_stripe,
+
+    // Don't like the look of the following...
+    // leds_white_with_red_stripe,
+    // leds_black_with_red_stripe,
+    
     leds_off
 };
 

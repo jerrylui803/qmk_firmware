@@ -30,7 +30,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //Count of LED bodies
 #define ISSI3733_LED_COUNT 105
 
-#define LED_GCR_MAX                 165         //Max GCR value (0 - 255) WARNING: Raising this value may overload the LED drivers and USB bus
+//On Drop ALT, there is no significant difference when brightness is above 80
+#define LED_GCR_MAX                 80          //Max GCR value (0 - 255) WARNING: Raising this value may overload the LED drivers and USB bus
 #define LED_GCR_STEP                10          //GCR increment/decrement value
 
 #ifdef USE_MASSDROP_CONFIGURATOR
